@@ -26,7 +26,6 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="投稿一覧" />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
-          console.log(post);
           const title = post.frontmatter.title || post.fields.slug
 
           return (
@@ -45,10 +44,11 @@ const BlogIndex = ({ data, location }) => {
                   <small>{post.frontmatter.date}</small>
                 </header>
                 <section className="index-article-section">
-                  <p
+                  <div
                     dangerouslySetInnerHTML={{
                       __html: post.html ,
                     }}
+                    itemProp="description"
                   />
                 </section>
               </article>
