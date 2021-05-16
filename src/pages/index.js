@@ -48,7 +48,6 @@ const BlogIndex = ({ data, location }) => {
                     dangerouslySetInnerHTML={{
                       __html: post.html ,
                     }}
-                    itemProp="description"
                   />
                 </section>
               </article>
