@@ -43,7 +43,7 @@ const BlogIndex = ({ data, location }) => {
                   </h3>
                   <small>{post.frontmatter.date}</small>
                 </header>
-                <section>
+                <section className="index-article-section">
                   <p
                     dangerouslySetInnerHTML={{
                       __html: post.html ,
