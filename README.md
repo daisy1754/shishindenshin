@@ -1,6 +1,6 @@
 ## 私信電信
 
-Built with gatsby blog starter.
+Built with [gatsbyjs/gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog).
 
 ### How to add an arcitlce
 
