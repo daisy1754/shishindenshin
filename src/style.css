@@ -312,6 +312,11 @@ a:focus {
   padding-bottom: var(--spacing-2);
 }
 
+table.articles td {
+  padding-top: var(--spacing-1);
+  padding-bottom: var(--spacing-1);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

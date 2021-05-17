@@ -2,6 +2,10 @@
 
 Built with gatsby blog starter.
 
+### How to add an arcitlce
+
+Add a markdown under `content/blog`
+
 ### Developing
 
     ```shell
@@ -16,6 +20,7 @@ Built with gatsby blog starter.
 ### Deploy
 
 Once you pushed to master, deploy will happen automatically.
+
 
 ### 🧐 What's inside?
 
