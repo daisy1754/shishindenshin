@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `私信電信`,
-    description: `N人のソフトウェアエンジニア (hiroqn, enka, daisy1754) がプログラミングやソフトウェアエンジニアリングの話をするサイトです`,
+    description: `N人のソフトウェアエンジニア (hiroqn, enka, daisy1754) がプログラミングやソフトウェアの話をするサイトです`,
     siteUrl: `https://shishindenshin.vercel.app`
   },
   plugins: [
