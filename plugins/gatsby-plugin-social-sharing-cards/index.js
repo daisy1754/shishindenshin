@@ -21,7 +21,7 @@ module.exports = async ({ markdownNode }) => {
   registerFont(`${__dirname}/assets/SourceHanSans-VF.otf`, { family: 'SourceHanSans' });
   const dir = `./public/${slug}`;
   const location = `${dir}card.png`  
-  const canvas = createCanvas(1200, 600);
+  const canvas = createCanvas(1200, 630);
   const ctx = canvas.getContext('2d');
   const image = await loadImage(`${__dirname}/assets/icon.png`);
   ctx.drawImage(image, 70, 480, 80, 80);
