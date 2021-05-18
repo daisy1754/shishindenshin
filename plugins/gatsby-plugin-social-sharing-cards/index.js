@@ -1,7 +1,6 @@
 const { createCanvas, loadImage, registerFont } = require("canvas");
-const { writeFileSync } = require("fs");
+const { existsSync, mkdirSync, writeFileSync } = require("fs");
 
-console.log('plugin');
 module.exports = async ({ markdownNode }) => {
   const {
     frontmatter: { title = "私信電信" },
@@ -20,7 +19,8 @@ module.exports = async ({ markdownNode }) => {
     outputTitle = `${outputTitle.substring(0, maxLength)}...`
   }
   registerFont(`${__dirname}/assets/SourceHanSans-VF.otf`, { family: 'SourceHanSans' });
-  const location = `./public${slug.replace("/", "_")}card.png`  
+  const dir = `./public/${slug}`;
+  const location = `${dir}card.png`  
   const canvas = createCanvas(1200, 600);
   const ctx = canvas.getContext('2d');
   const image = await loadImage(`${__dirname}/assets/icon.png`);
@@ -30,6 +30,9 @@ module.exports = async ({ markdownNode }) => {
   ctx.font = `${siteNameFontSize}px SourceHanSans`;
   ctx.fillText("私信電信", 160, 535); 
 
+  if (!existsSync(dir)){
+    mkdirSync(dir);
+  }
   const buffer = canvas.toBuffer('image/png');
   writeFileSync(location, buffer);
 }
