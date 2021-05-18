@@ -28,7 +28,7 @@ const SEO = ({ description, lang, meta, title }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  const cardUrl = `${site.siteMetadata.siteUrl}${pathname}card.png`;
+  const cardUrl = `${site.siteMetadata.siteUrl || ""}${pathname}card.png`;
 
   let customMetaTags = [
     {
