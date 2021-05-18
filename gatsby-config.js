@@ -1,11 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `私信電信`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `N人のソフトウェアエンジニア (hiroqn, enka, daisy1754) がプログラミングやソフトウェアエンジニアリングの話をするサイトです`,
+    siteUrl: `https://shishindenshin.vercel.app`
   },
   plugins: [
     {
