@@ -59,8 +59,12 @@ const SEO = ({ description, lang, meta, title }) => {
       name: `twitter:description`,
       content: metaDescription,
     },
+    {
+      name: `path`,
+      content: pathname
+    },
   ];
-  if (pathname !== "/" || pathname !== "/404/") {
+  if (pathname.length > 2 && pathname !== "/404/") {
     customMetaTags = customMetaTags.concat([{
       property: `og:image`,
       content: cardUrl,
