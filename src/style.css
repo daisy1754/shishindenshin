@@ -317,6 +317,10 @@ table.articles td {
   padding-bottom: var(--spacing-1);
 }
 
+footer a {
+  color: currentColor;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

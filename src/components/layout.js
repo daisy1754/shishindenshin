@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer className="main-footer">
-        N人のソフトウェアエンジニア (hiroqn, enka, daisy1754) がプログラミングやソフトウェアエンジニアリングの話をするサイトです
+        N人のソフトウェアエンジニア (hiroqn, enka, <a href="https://twitter.com/daisy1754">daisy1754</a>) がプログラミングやソフトウェアエンジニアリングの話をするサイトです
       </footer>
     </div>
   )
