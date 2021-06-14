@@ -14,6 +14,6 @@ date: "2021-05-16T22:12:03.284Z"
   </tr>
   <tr>
     <td>enka</td>
-    <td>近日公開</td>
+    <td><a href="https://gist.github.com/enkaism/7b1ffeca14e5d4a55411e419b559ad7d">ソフトウェアエンジニア採用時における競技プログラミングの有用性について</a></td>
   </tr>
 </table>
