@@ -10,7 +10,7 @@ date: "2021-05-16T22:12:03.284Z"
   </tr>
   <tr>
     <td>hiroqn</td>
-    <td>近日公開</td>
+    <td><a href="https://hiroqn.hatenablog.com/entry/2021/06/06/170405">実際、競技プログラミングって採用時にどうよ？</a></td>
   </tr>
   <tr>
     <td>enka</td>
