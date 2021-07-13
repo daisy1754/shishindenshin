@@ -6,7 +6,7 @@ date: "2021-07-13T00:29:00.000Z"
 <table class="articles">
   <tr>
     <td>daisy1754</td>
-    <td><a href=""></a></td>
+    <td><a href="https://nkazuki.hatenablog.com/entry/2021/07/13/093255">OSSのはなし</a></td>
   </tr>
   <tr>
     <td>enka</td>
