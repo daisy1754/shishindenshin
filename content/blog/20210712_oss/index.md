@@ -10,7 +10,7 @@ date: "2021-07-13T00:29:00.000Z"
   </tr>
   <tr>
     <td>enka</td>
-    <td><a href=""></a></td>
+    <td><a href="https://enkaism.hatenadiary.jp/entry/2021/07/22/045851">加齢とOSS</a></td>
   </tr>
   <tr>
     <td>hiroqn</td>
