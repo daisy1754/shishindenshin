@@ -14,6 +14,6 @@ date: "2021-09-01T13:36:00.000Z"
   </tr>
   <tr>
     <td>hiroqn</td>
-    <td></td>
+    <td><a href="https://hiroqn.hatenablog.com/entry/2021/09/02/202147">最近おもしろかった漫画(7月~)</a></td>
   </tr>
 </table>
