@@ -10,7 +10,7 @@ date: "2021-09-01T13:36:00.000Z"
   </tr>
   <tr>
     <td>daisy1754</td>
-    <td><a href="https://nkazuki.hatenablog.com/">2021年面白かった漫画</a></td>
+    <td><a href="https://nkazuki.hatenablog.com/entry/2021-09-01-manga">2021年面白かった漫画</a></td>
   </tr>
   <tr>
     <td>hiroqn</td>
