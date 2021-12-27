@@ -14,6 +14,6 @@ date: "2021-12-27T12:23:00.000Z"
   </tr>
   <tr>
     <td>hiroqn</td>
-    <td></td>
+    <td><a href="https://hiroqn.hatenablog.com/entry/20211227_money">財テク</a></td>
   </tr>
 </table>
