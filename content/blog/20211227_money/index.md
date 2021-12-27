@@ -10,7 +10,7 @@ date: "2021-12-27T12:23:00.000Z"
   </tr>
   <tr>
     <td>daisy1754</td>
-    <td></td>
+    <td><a href="https://nkazuki.hatenablog.com/entry/2021/12/27/213326">在米7年目ソフトウェアエンジニア、資産運用とかのはなし</a></td>
   </tr>
   <tr>
     <td>hiroqn</td>
