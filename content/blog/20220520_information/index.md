@@ -10,7 +10,7 @@ date: "2022-05-20T17:23:00.000Z"
   </tr>
   <tr>
     <td>daisy1754</td>
-    <td><a href=""></a></td>
+    <td><a href="https://nkazuki.hatenablog.com/entry/2022/05/20/211726">情報収集どうしてます？</a></td>
   </tr>
   <tr>
     <td>hiroqn</td>
